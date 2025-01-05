@@ -1,0 +1,35 @@
+name: flutter_shop
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+    sdk: ^3.6.0
+
+dependencies:
+    flutter:
+        sdk: flutter
+    cupertino_icons: ^1.0.2
+    flutter_svg: ^1.0.3
+    provider: ^6.0.5
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/images/
+        - assets/icons/
+
+    fonts:
+        - family: Muli
+          fonts:
+              - asset: assets/fonts/muli/Muli.ttf
+              - asset: assets/fonts/muli/Muli-Bold.ttf
+                weight: 700
+              - asset: assets/fonts/muli/Muli-Light.ttf
+                weight: 300
