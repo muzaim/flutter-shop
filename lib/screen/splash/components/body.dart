@@ -72,7 +72,7 @@ class _BodyState extends State<Body> {
                   ),
                   Spacer(flex: 2),
                   DefaultButton(
-                    text: "Next",
+                    text: "Nexts",
                     press: () {},
                     jarak: 50,
                   ),
